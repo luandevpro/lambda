@@ -29,10 +29,10 @@ const apollo = new ApolloServer({
   resolvers
 })
 // router.get("/playground", expressPlayground({ endpoint: "/graphql" }));
-
-apollo.applyMiddleware({ app });
+const path = '/.netlify/functions/graphql';
 
 app.use('/.netlify/functions/graphql', router);  // path must route to lambda
 
+apollo.applyMiddleware({ app , path });
 module.exports = app;
 module.exports.handler = serverless(app);
