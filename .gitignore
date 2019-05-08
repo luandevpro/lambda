@@ -1,6 +1,6 @@
+# package directories
 node_modules
+jspm_packages
 
-functions/node_modules
-
-# Ignore netlify folder
-.netlify
+# Serverless directories
+.serverless

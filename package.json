@@ -4,8 +4,7 @@
    "description": "This repo demonstrates how to use functions for a GraphQL API using `apollo-server-lambda`.",
    "main": "index.js",
    "scripts": {
-      "build": "cd functions && npm install",
-      "netlify-lambda": "netlify-lambda serve functions"
+      "build": "cd functions && npm install"
    },
    "repository": {
       "type": "git",
@@ -19,6 +18,7 @@
    },
    "homepage": "https://github.com/netlify-labs/functions-and-graphql#readme",
    "dependencies": {
-      "netlify-lambda": "^1.4.7"
+      "netlify-lambda": "^1.4.7",
+      "serverless-offline": "^4.10.0"
    }
 }
