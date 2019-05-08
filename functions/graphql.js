@@ -28,7 +28,7 @@ const apollo = new ApolloServer({
   typeDefs,
   resolvers
 })
-router.get("/playground", expressPlayground({ endpoint: "/.netlify/functions/graphql" }));
+// router.get("/playground", expressPlayground({ endpoint: "/graphql" }));
 
 apollo.applyMiddleware({ app });
 
