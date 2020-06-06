@@ -4,7 +4,7 @@
   "author": "Netlify",
   "license": "MIT",
   "dependencies": {
-    "apollo-server-express": "^2.5.0",
+    "apollo-server-express": "^2.14.2",
     "apollo-server-lambda": "^2.4.8",
     "body-parser": "^1.19.0",
     "chai": "^4.2.0",
